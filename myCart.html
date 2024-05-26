@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cart.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="shoppingCart">
+      <div class="bar">
+        <div class="myCart"><p>My Shopping Cart</p></div>
+        <div class="cartItem">Your cart is empty</div>
+        <div class="total-price">
+          <span>Total</span>
+          <span>$0</span>
+          <div class="buythis">
+            <button class="button" id="myButton">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const button = document.getElementById("myButton");
+      button.addEventListener("click", function () {
+        alert("You have purchased the product!");
+      });
+    </script>
+  </body>
+</html>

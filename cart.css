@@ -1,0 +1,100 @@
+body,
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  background-color: goldenrod;
+}
+
+.shoppingCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.bar {
+  width: 100%;
+  border-radius: 5px;
+  background-color: black;
+  margin-left: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.myCart {
+  background-color: goldenrod;
+  border-radius: 3px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  border-top: 1px solid white;
+  color: white;
+}
+
+.cartItem {
+  color: white;
+}
+
+.total-price h3,
+.total-price h2 {
+  margin: 5px 0;
+}
+
+/* button */
+.button {
+  position: relative;
+  background-color: goldenrod;
+  text-decoration: none;
+  border: none;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  width: 95px;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  top: 25px; /* Move down by 50px */
+  left: -70px; /* Move left by 30px */
+}
+
+.button:after {
+  content: "";
+  background: gold;
+  display: block;
+  position: absolute;
+  padding-top: 10%;
+  padding-left: 100%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+@media screen and (max-width: 700px) {
+  .shoppingCart {
+    flex-direction: column;
+    align-items: center;
+  }
+}

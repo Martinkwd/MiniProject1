@@ -1,0 +1,346 @@
+{
+  "storeInfo": {
+    "name": "SantaBlanca",
+    "address": {
+      "street": "123 Main St",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701"
+    },
+    "phone": "555-123-4567",
+    "email": "contact@santablanca.com",
+    "hours": {
+      "monday": "8:00 AM - 6:00 PM",
+      "tuesday": "8:00 AM - 6:00 PM",
+      "wednesday": "8:00 AM - 6:00 PM",
+      "thursday": "8:00 AM - 6:00 PM",
+      "friday": "8:00 AM - 6:00 PM",
+      "saturday": "9:00 AM - 5:00 PM",
+      "sunday": "10:00 AM - 4:00 PM"
+    }
+  },
+  "inventory": [
+    {
+      "itemId": 1,
+      "name": "Nails",
+      "category": "Fasteners",
+      "price": 5.99,
+      "quantityInStock": 250,
+      "description": "Steel nails for general construction.",
+      "sales": 1908,
+      "thumbnail": ["https://www.buildworld.co.uk/blogimages/masonary-nail.jpg"]
+    },
+    {
+      "itemId": 2,
+      "name": "Hammers",
+      "category": "Tools",
+      "price": 12.99,
+      "quantityInStock": 75,
+      "description": "16 oz claw hammer with wooden handle.",
+      "sales": 102,
+      "thumbnail": [
+        "https://www.kincrome.com.au/Images/ProductImages/K9053.jpeg"
+      ]
+    },
+    {
+      "itemId": 3,
+      "name": "Bolt Cutters",
+      "category": "Tools",
+      "price": 23.99,
+      "quantityInStock": 85,
+      "description": "Bolt Cutter is used for cutting chains, padlocks, bolts, fences and wire mesh. It is an ideal tool for any home owner, and perfect for DIY projects and construction use.",
+      "sales": 90,
+      "thumbnail": [
+        "https://i.ebayimg.com/images/g/0fEAAOSw5KFjIcjm/s-l1200.webp"
+      ]
+    },
+    {
+      "itemId": 4,
+      "name": " 3 piece Plier Set ",
+      "category": "Tools",
+      "price": 64.99,
+      "quantityInStock": 40,
+      "description": "The Classic 3-piece Plier Set is the perfect addition to the home handyman's toolbox.This set contains: Combi Plier for holding, gripping, bending, and cutting work.Side Cutters with a precision cutting edge for the finest wires.Long Nose Pliers for cutting hard and soft wires.",
+      "sales": 19,
+      "thumbnail": [
+        "https://media.prod.bunnings.com.au/api/public/content/8d1fb86266a944da8a850feb49371777?v=4cc58c1b&t=w500dpr1"
+      ]
+    },
+    {
+      "itemId": 5,
+      "name": "Hand Saws",
+      "category": "Tools",
+      "price": 16.59,
+      "quantityInStock": 97,
+      "description": "360mm Toolbox Handsaw is an ideal general purpose Handsaw that is suitable for a wide variety of woodworking projects and cutting all types of timber.",
+      "sales": 89,
+      "thumbnail": [
+        "https://images.thdstatic.com/productImages/88e1f69c-3af1-4099-9dd8-d6716c77d0eb/svn/stanley-hand-saws-20-065-64_1000.jpg"
+      ]
+    },
+    {
+      "itemId": 6,
+      "name": "Staple Gun",
+      "category": "Tools",
+      "price": 69.99,
+      "quantityInStock": 75,
+      "description": "High durability, all steel stapling gun meeting high demand from professional users.",
+      "sales": 59,
+      "thumbnail": [
+        "https://res.cloudinary.com/rsc/image/upload/bo_1.5px_solid_white,b_auto,c_pad,dpr_2,f_auto,h_399,q_auto,w_710/c_pad,h_399,w_710/F7769771-01?pgw=1"
+      ]
+    },
+    {
+      "itemId": 7,
+      "name": "Screwdrivers",
+      "category": "Tools",
+      "price": 8.99,
+      "quantityInStock": 150,
+      "description": "Set of 6 screwdrivers, various sizes.",
+      "sales": 51,
+      "thumbnail": [
+        "https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.625,f_auto,h_535,q_auto,w_950/c_pad,h_535,w_950/R1252050-01?pgw=1&pgwact=1"
+      ]
+    },
+    {
+      "itemId": 8,
+      "name": "Drills",
+      "category": "Power Tools",
+      "price": 45.99,
+      "quantityInStock": 30,
+      "description": "Cordless drill with battery and charger.",
+      "sales": 40,
+      "thumbnail": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT97h_SFZKPiQiD0iqppNlf9OcIBkYHKZXU-VPYjQmEMo0t7hsJF_k-qH7jLF4Lpy3QwTQ&usqp=CAU"
+      ]
+    },
+    {
+      "itemId": 9,
+      "name": "Grinders",
+      "category": "Power Tools",
+      "price": 180.99,
+      "quantityInStock": 26,
+      "description": "Complete a wide variety of cutting, grinding, shaping and polishing jobs ",
+      "sales": 31,
+      "thumbnail": [
+        "https://hikoki.co.nz/wp-content/uploads/2018/09/G10SR4G6Z.jpg"
+      ]
+    },
+    {
+      "itemId": 10,
+      "name": "Biscuit Joiners",
+      "category": "Power Tools",
+      "price": 189,
+      "quantityInStock": 30,
+      "description": "Biscuit Joiner for fast and convenient cutting and joining of timber. Especially helpful when edge joining long boards of either natural wood or manufactured sheeting.",
+      "sales": 30,
+      "thumbnail": [
+        "https://d1mv2b9v99cq0i.cloudfront.net/eyJidWNrZXQiOiJ3ZWItbmluamEtaW1hZ2VzIiwia2V5IjoidG9vbHNoZWRcL2ltYWdlc1wvcHJvZGltZ1wvNDE1OTlfMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjcwMCwiaGVpZ2h0Ijo3MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19LCJ2ZXJzaW9uIjoiYTQ1MjVhZjM5NTA3NTA5YTA0ZWJjMTYyMGE0YWFmMGFmODg0MGEzYiJ9"
+      ]
+    },
+    {
+      "itemId": 11,
+      "name": "Circular Saw",
+      "category": "Power Tools",
+      "price": 178,
+      "quantityInStock": 78,
+      "description": "This saw has a more powerful motor and gearing compared to its previous model which improves its performance to allow for deeper cuts of up the 52mm.",
+      "sales": 80,
+      "thumbnail": [
+        "https://www.bosch-pt.co.nz/nz/en/ocsmedia/214385-54/application-image/1434x828/cordless-circular-saw-gks-18v-57-06016a2240.png"
+      ]
+    },
+    {
+      "itemId": 12,
+      "name": "Corded Multi Tool",
+      "category": "Power Tools",
+      "price": 47.99,
+      "quantityInStock": 48,
+      "description": "This 220W Multi Function Tool is useful for a variety of jobs around the house. Cut wood, plastic or plaster board with the included cutting blade.",
+      "sales": 50,
+      "thumbnail": [
+        "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1618587403-71pfx7i5cml-ac-sl1500-1618587394.jpg?crop=1xw:1xh;center,top&resize=980:*"
+      ]
+    },
+    {
+      "itemId": 13,
+      "name": "Plywood",
+      "category": "Building Materials",
+      "price": 25.99,
+      "quantityInStock": 40,
+      "description": "4x8 feet plywood sheets.",
+      "sales": 56,
+      "thumbnail": [
+        "https://m.media-amazon.com/images/I/7102Q1SpRBL._AC_SL1500_.jpg"
+      ]
+    },
+    {
+      "itemId": 14,
+      "name": "Cemplaster",
+      "category": "Building Materials",
+      "price": 21.67,
+      "quantityInStock": 80,
+      "description": "Cemplaster is an exterior use plaster used for block and brick work, and concrete substrates, in civil, commercial, industrial and residential applications.",
+      "sales": 60,
+      "thumbnail": [
+        "https://static.wixstatic.com/media/107889_e57ec639bb8c457192b481991584d790~mv2.png/v1/fill/w_1600,h_1614,al_c/Cemplaster-%20paperbag.png"
+      ]
+    },
+    {
+      "itemId": 15,
+      "name": "Waterproofing Membranes",
+      "category": "Building Materials",
+      "price": 21.99,
+      "quantityInStock": 20,
+      "description": "This Exterior Grade Brushable Waterproofer is a synthetic rubber waterproofing membrane for use in areas of high expected movement, ponding or permanent immersion.",
+      "sales": 51,
+      "thumbnail": [
+        "https://5.imimg.com/data5/SELLER/Default/2022/1/TI/IK/SG/58408823/waterproofing-membrane-500x500.jpg"
+      ]
+    },
+    {
+      "itemId": 16,
+      "name": "Liquid Nails Original Construction Adhesive",
+      "category": "Building Materials",
+      "price": 5.99,
+      "quantityInStock": 180,
+      "description": "Liquid Nails is a premium grade multi-purpose construction adhesive that delivers a consistently strong and lasting bond on most building materials to cope with shrinkage and thermal movement.",
+      "sales": 67,
+      "thumbnail": [
+        "https://media.prod.bunnings.com.au/api/public/content/08329b54708747288203ae8dbf22b5c6?v=fc0c9e63&t=w500dpr1"
+      ]
+    },
+    {
+      "itemId": 17,
+      "name": "Anti Slip Tape",
+      "category": "Building Materials",
+      "price": 15.99,
+      "quantityInStock": 189,
+      "description": "Durable and chemical and oil resistant, this black anti-slip tape reduces the risk of slips, trips and falls in high traffic areas and is suitable for both indoor and outdoor use.",
+      "sales": 30,
+      "thumbnail": [
+        "https://www.euromarc.co.nz/media/catalog/product/a/s/astiasb146_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+      ]
+    },
+    {
+      "itemId": 18,
+      "name": "Fibre Cement Cladding 2700 x 600 x 19mm Durafloor",
+      "category": "Building Boards",
+      "price": 155.5,
+      "quantityInStock": 40,
+      "description": " Fibre cement is superb for interior wet areas such as bathrooms and laundries. You can also specify Durafloor™ for a variety of exterior uses.",
+      "sales": 13,
+      "thumbnail": [
+        "https://media.prod.bunnings.com.au/api/public/content/b65f74d8bd764afdb2901d903d582687?v=e8b4b0d2&t=w500dpr1"
+      ]
+    },
+    {
+      "itemId": 19,
+      "name": "Timber Cladding",
+      "category": "Building Boards",
+      "price": 16.99,
+      "quantityInStock": 70,
+      "description": "Manufactured from Finger Jointed Clear Radiata Pine. Kiln Dried to a target Moisture content of 10 - 14 %. Coated with a factory applied oil based architectural primer.",
+      "sales": 37,
+      "thumbnail": [
+        "https://www.abodo.co.nz/uploads/products/Tundra-Cladding/_large/384818/Tundra-Timber-Cladding-Weatherboards-Abodo-Wood.webp"
+      ]
+    },
+    {
+      "itemId": 20,
+      "name": "Demi Round 40 Pre-Primed MDF Panel 2400 x 1200 x 12mm",
+      "category": "Building Boards",
+      "price": 233.99,
+      "quantityInStock": 60,
+      "description": "Panels feature a convenient tongue and groove system for fast and easy installation and are pre-primed ready for your choice of paint colour.",
+      "sales": 49,
+      "thumbnail": [
+        "https://trademaster.au/cdn/shop/products/Demi-Round-40-Surround-By-Laminex-Pre-Primed-Wall-Panels.jpg?v=1661994529"
+      ]
+    },
+    {
+      "itemId": 21,
+      "name": "Plain Particle Board 16 x 2440 x 1220mm",
+      "category": "Building Boards",
+      "price": 65.68,
+      "quantityInStock": 79,
+      "description": "Superfine Particleboard is a three layered board, with fine particles on the top and bottom surfaces, and larger wood flakes in the middle.",
+      "sales": 13,
+      "thumbnail": [
+        "https://media.prod.bunnings.com.au/api/public/content/e37f567e667b4a77977ffe259349e119?v=4d080504&t=w500dpr1"
+      ]
+    },
+    {
+      "itemId": 22,
+      "name": "Compressed Fibre Cement 2400 x 600 x 4.5mm Lining",
+      "category": "Building Boards",
+      "price": 26.7,
+      "quantityInStock": 40,
+      "description": "Compressed Fibre Cement Lining sheets have an unsanded finish suitable for semi-gloss acrylics or lightly textured semigloss or high-gloss coatings. Perfect economical option for all eaves, verandahs, porches and carports.",
+      "sales": 50,
+      "thumbnail": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6G_z0DZiBJ-fvLoi-uf3nw_m1rJkzMOcx6kyYfPcORA&s"
+      ]
+    },
+    {
+      "itemId": 23,
+      "name": "Magnetic Door Stops",
+      "category": "Door Hardware",
+      "price": 8.9,
+      "quantityInStock": 30,
+      "description": "high quality and stylish magnetic doorstops. The magnetic doorstops use built in spring buffer device in the small round section, which plays a role in shock absorption and minimizing noises when the door stop catches the moving door.",
+      "sales": 98,
+      "thumbnail": [
+        "https://cdn11.bigcommerce.com/s-jvovd4bnnq/images/stencil/1280x1280/attribute_rule_images/793_source_1676425313.jpg"
+      ]
+    },
+    {
+      "itemId": 24,
+      "name": "Door Hinges",
+      "category": "Door Hardware",
+      "price": 1.99,
+      "quantityInStock": 177,
+      "description": "This hinge has a fixed pin for extra home security.The hinge is supplied prime coated making it ready for painting once installed.",
+      "sales": 23,
+      "thumbnail": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDW0hvp92bVG7jHbkxwn9l70UT53P_p9jMJCbf4i31kQ&s"
+      ]
+    },
+    {
+      "itemId": 25,
+      "name": "Black Entrance Knob Set",
+      "category": "Door Hardware",
+      "price": 14.99,
+      "quantityInStock": 48,
+      "description": "Entrance Knob Set features a quality matte black finish, adjustable back set and is easy to install. This kit is backed by a 3 year warranty.",
+      "sales": 90,
+      "thumbnail": [
+        "https://media.prod.bunnings.com.au/api/public/content/72c546e23b1344919f8bdc63b4639029?v=915f062d&t=w500dpr1"
+      ]
+    },
+    {
+      "itemId": 26,
+      "name": "Internal Concertina Doors",
+      "category": "Doors",
+      "price": 79.99,
+      "quantityInStock": 90,
+      "description": "PVC doors are perfect for closing-off rooms for privacy, concealing unsightly areas, or for creating divisions within rooms and other large areas.",
+      "sales": 44,
+      "thumbnail": [
+        "https://media.prod.bunnings.com.au/api/public/content/4d69f9ca993b4f6782d2979e0efa86d1?v=b215041d&t=w500dpr1"
+      ]
+    },
+    {
+      "itemId": 27,
+      "name": "External Entrance Door",
+      "category": "Doors",
+      "price": 467.99,
+      "quantityInStock": 78,
+      "description": "A great way to give a new look to your entrance with this Miacador Frosted Glass door, with its stylish tempered frosted glass that boasts light and privacy.",
+      "sales": 95,
+      "thumbnail": [
+        "https://www.neuffer-windows.co.nz/sites/nz/files/img/frontdoors/l/modern-oak-front-door.jpg"
+      ]
+    }
+  ]
+}
